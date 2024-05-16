@@ -5,7 +5,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #925e0f7a;
+    background-color: #ffe9c8;
     color: #4d381b; /* Color de texto */
 }
 .header {
@@ -46,4 +46,13 @@ body {
     font-size: 16px;
 }
 
-
+#dsctobot {
+    padding: 15px 30px;
+    background-color: #b89f87; /* Color de fondo de los botones */
+    color: #fff; /* Color del texto de los botones */
+    text-decoration: none;
+    border-radius: 25px; /* Borde redondeado */
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
