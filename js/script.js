@@ -29,7 +29,7 @@ $(document).ready(function() {
 });
 
 function validarCampos() {
-var esValido = true; // Asumimos que todo es válido inicialmente
+var esValido = true;
 var nombre = $('#nombre').val();
 var apellido1 = $('#apellido1').val();
 var apellido2 = $('#apellido2').val();

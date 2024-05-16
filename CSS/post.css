@@ -60,7 +60,7 @@ body {
     padding: 20px;
 }
 
-/* Estilos para los botones */
+ 
 .btn-primary {
     background-color: #f3d0a3;
     border: none;
@@ -71,7 +71,7 @@ body {
     background-color: #644822;
 }
 
-/* Estilos para la lista de posts */
+ 
 #postList {
     list-style: none;
     padding: 0;
@@ -96,8 +96,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #7e5c49; /* Color de fondo del pie de página */
-    color: white; /* Color del texto del pie de página */
+    background-color: #7e5c49;  
+    color: white;  
     text-align: center;
-    padding: 0% 0; /* Espaciado interior del pie de página */
 }

@@ -1,57 +1,55 @@
-/* Estilos para el cuerpo de la página */
+
 body {
 
-    background-attachment: fixed; /* Fija la imagen en su posición */
+    background-attachment: fixed; 
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffe9c8;
-    color: #4d381b; /* Color de texto */
+    color: #4d381b;  
 }
 .header {
-    background-color: #7e5c49; /* Color de fondo del encabezado */
+    background-color: #7e5c49;  
     padding: 20px;
     text-align: center;
 }
-
-/* Estilos para el footer */
+ 
 .footer {
     position: bottom;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #7e5c49; /* Color de fondo del pie de página */
-    color: white; /* Color del texto del pie de página */
+    background-color: #7e5c49;  
+    color: white;  
     text-align: center;
-    padding: 0% 0; /* Espaciado interior del pie de página */
+    padding: 0% 0;  
 }
 
 .option {
     padding: 15px 30px;
-    background-color: #b89f87; /* Color de fondo de los botones */
-    color: #fff; /* Color del texto de los botones */
+    background-color: #b89f87;  
+    color: #fff;  
     text-decoration: none;
-    border-radius: 25px; /* Borde redondeado */
+    border-radius: 25px;  
     font-size: 18px;
     transition: background-color 0.3s ease;
 }
 
 .option:hover {
-    background-color: #9d8470; /* Color de fondo al pasar el ratón */
+    background-color: #9d8470;  
 }
 
-/* Estilos específicos para el texto del footer */
-.company-info p {
+ .company-info p {
     margin: 5px 0;
     font-size: 16px;
 }
 
 #dsctobot {
     padding: 15px 30px;
-    background-color: #b89f87; /* Color de fondo de los botones */
-    color: #fff; /* Color del texto de los botones */
+    background-color: #b89f87;  
+    color: #fff;  
     text-decoration: none;
-    border-radius: 25px; /* Borde redondeado */
+    border-radius: 25px;  
     font-size: 18px;
     transition: background-color 0.3s ease;
     border: none;

@@ -1,16 +1,15 @@
 body {
-    background-color: #925e0f7a; /* Color de fondo del cuerpo */
+    background-color: #925e0f7a;  
   }
-  
-/* Estilos para el encabezado */
+
 .header {
-  background-color: #fbcfcf; /* Color de fondo del encabezado */
+  background-color: #fbcfcf;  
   padding: 20px;
   text-align: center;
 }
 
 .logo img {
-  width: 150px; /* Tamaño del logo */
+  width: 150px;  
   height: auto;
 }
 
@@ -26,7 +25,7 @@ body {
 
 .main-menu ul li a {
   text-decoration: none;
-  color: #925e0f7a; /* Color del texto del menú */
+  color: #925e0f7a;  
   font-size: 18px;
 }
 
@@ -36,16 +35,16 @@ body {
   }
   
   .card-title {
-    color: #111; /* Color del título del formulario */
+    color: #111;  
   }
   
   .btn-primary {
-    background-color: #fbcfcf; /* Color de fondo del botón */
-    border-color: #fbcfcf; /* Color del borde del botón */
+    background-color: #fbcfcf;  
+    border-color: #fbcfcf;  
     color: #755c3b
   }
   
   .btn-primary:hover {
-    background-color: #cdbb99; /* Cambio de color de fondo del botón al pasar el cursor */
-    border-color: #cdbb99; /* Cambio de color del borde del botón al pasar el cursor */
+    background-color: #cdbb99; 
+    border-color: #cdbb99;  
   }
