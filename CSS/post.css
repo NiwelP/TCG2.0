@@ -1,0 +1,103 @@
+
+body {
+
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbcfcf; /* Color de fondo */
+    color: #4d381b; /* Color de texto */
+    font-size: large;
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #7e5c49; /* Color de fondo del encabezado */
+    text-align: center;
+}
+
+.logo img {
+    width: 100px; /* Tamaño del logo */
+    height: auto;
+}
+
+
+.main-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: #fff; /* Color del texto del menú */
+    font-size: 18px;
+}
+
+/* Estilos para el contenido principal */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+/* Estilos para el formulario */
+#postForm {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la tarjeta */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #f3d0a3;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #644822;
+}
+
+/* Estilos para la lista de posts */
+#postList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-item {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    color: #333;
+}
+
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7e5c49; /* Color de fondo del pie de página */
+    color: white; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 0% 0; /* Espaciado interior del pie de página */
+}

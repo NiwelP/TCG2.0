@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POSTEA AQUÍ</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/post.css">
+  <link rel="icon" href="img/ico.ico" type="image/x-icon"></head>
+</head>
+
+<header class="header">
+  <div class="container">
+      <div class="logo">
+          <img src="img/logo.png" class = "img-fluid" alt="Logo de la tienda">
+          <div class=" position-absolute top-10 end-0 translate-middle">
+          <a class="btn btn-primary" href="registro.html" role="button">Registrate!</a>
+            </div>
+          </div>
+      </div>
+  </div>
+  <nav class="main-menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Productos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+  </nav>
+</header>
+
+
+<body>
+
+<div class="container mt-5">
+  <h1 class="text-center mb-4">SUBE TUS ARTÍCULOS</h1>
+
+  <!-- Formulario para crear un nuevo post -->
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Crear un nuevo post</h5>
+      <form id="postForm">
+        <div class="form-group">
+          <textarea class="form-control" id="postContent" rows="3" placeholder="Escribe tu post aquí..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Publicar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Lista de posts -->
+  <ul id="postList" class="mt-4">
+    <!-- Los posts creados dinámicamente aparecerán aquí -->
+  </ul>
+</div>
+
+<footer class="footer">
+  <div class="company-info">
+      <p>© 2024 Tienda TCG. Todos los derechos reservados.</p>
+      <p>Dirección: Calle Principal, Ciudad, País</p>
+      <p>Teléfono: +123456789</p>
+      <p>Email: info@tiendatcg.com</p>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js"></script>
+<script src="js/post.js"></script>
+
+</body>
+</html>
